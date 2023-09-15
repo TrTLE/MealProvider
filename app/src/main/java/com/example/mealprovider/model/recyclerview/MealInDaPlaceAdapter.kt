@@ -25,6 +25,8 @@ class MealInDaPlaceAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        val position = holder.adapterPosition
+
         val isExpanded = items[position].isExpanded
         holder.itemView.isActivated = isExpanded
         if (isExpanded) {

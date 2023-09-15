@@ -13,10 +13,11 @@
                   android:orientation="horizontal"
                   android:layout_marginTop="10dp">
 
-        <Button android:id="@+id/goto_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Goto '?'" />
+        <Button
+            android:id="@+id/goto_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recette aléatoire" />
 
     </LinearLayout>
 

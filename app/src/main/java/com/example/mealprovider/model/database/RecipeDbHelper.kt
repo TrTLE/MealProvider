@@ -21,9 +21,11 @@ class RecipeDbHelper (ctx : Context = App.instance) : ManagedSQLiteOpenHelper(ct
     }
 
     override fun onCreate(db: SQLiteDatabase) {
+        throw NotImplementedError();
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
+        throw NotImplementedError();
     }
 
     private fun installDatabaseFromAssets() {
